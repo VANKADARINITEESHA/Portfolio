@@ -1,0 +1,120 @@
+img{
+    border-radius: 50%;
+    height:50%;
+    width: 50%;
+    border:2px solid black;
+    margin-right: 6%;
+}
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #141111;
+            color: #fff;
+            
+        }
+.resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+.photo {
+            float: left;
+            width: 200px;
+            height: 300px;
+            border-radius: 50%;
+			overflow: hidden;
+            margin-left: 20px;
+        }
+  	.photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+		}
+    .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    .header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+    .header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+            color: #666;
+        }
+    .section {
+            margin-bottom: 20px;
+        }
+    .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+    .section p {
+            margin: 0;
+        }
+        nav {
+            background-color: #bcb3b3;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+    .nav-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: right;
+        }
+        
+        .nav-list li {
+            margin: 0 15px;
+        }
+        
+    .nav-list a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        
+    .nav-list a:hover {
+            color: #ff9800;
+        }        
+        .circular-button {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #4CAF50; /* Green color */
+            border: none;
+            color: rgb(25, 14, 227);
+            font-size: 16px;
+            text-align: center;
+            line-height: 100px; /* Vertically center the text */
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .circular-button:hover {
+            background-color: white; /* Darker green on hover */
+            text-align: center;
+            box-shadow: 0 0 4px 4px yellow,0 0 8px 8px yellow,0 0 8px 8px yellow ;
+        }
+        .button-container {
+            display: flex;
+            text-align: center;
+            gap: 10px; /* Adjust the space between buttons */
+        }
+
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
